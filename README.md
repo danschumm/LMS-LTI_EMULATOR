@@ -1,5 +1,7 @@
 # LTI 1.3 Mock Environment
 
+This solution was primary written by AI.
+
 A comprehensive localhost environment for testing LTI 1.3 launches with full LTI Advantage services support. Emulates Blackboard Learn production patterns including Deep Linking, Names and Role Provisioning Service (NRPS), Assignment and Grade Services (AGS), and OAuth flows.
 
 ## Quick Start
