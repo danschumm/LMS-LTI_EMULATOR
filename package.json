@@ -1,0 +1,16 @@
+{
+  "name": "lti-mock-environment",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run lms\" \"npm run tool\" \"npm run dev-portal\"",
+    "lms": "node lms-platform.js",
+    "tool": "node tool-provider.js",
+    "dev-portal": "node dev-portal.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "jose": "^5.1.3",
+    "uuid": "^9.0.1",
+    "concurrently": "^8.2.2"
+  }
+}

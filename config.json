@@ -1,0 +1,15 @@
+{
+  "platform": {
+    "issuer": "http://localhost:3000",
+    "client_id": "demo-tool-123",
+    "deployment_id": "deployment-456",
+    "target_link_uri": "http://localhost:3001/lti13"
+  },
+  "tool": {
+    "client_id": "demo-tool-123",
+    "issuer": "http://localhost:3000",
+    "login_url": "http://localhost:3001/oidc/login_initiations",
+    "redirect_uris": ["http://localhost:3001/lti13"],
+    "jwks_uri": "http://localhost:3001/.well-known/jwks.json"
+  }
+}
