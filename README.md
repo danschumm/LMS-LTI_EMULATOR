@@ -8,14 +8,19 @@ A comprehensive localhost environment for testing LTI 1.3 launches with full LTI
 
 ```bash
 npm install
-npm run dev  # Runs all services concurrently
+npm start  # Runs all services concurrently
 ```
 
-Or run services individually:
+Or run each service in separate terminals:
 ```bash
-npm run platform  # LMS Platform (port 3000)
-npm run tool      # Tool Provider (port 3001) 
-npm run dev-portal # Dev Portal (port 3002)
+# Terminal 1 - LMS Platform (port 3000)
+npm run lms
+
+# Terminal 2 - Tool Provider (port 3001) 
+npm run tool
+
+# Terminal 3 - Dev Portal (port 3002)
+npm run dev-portal
 ```
 
 ## Services
